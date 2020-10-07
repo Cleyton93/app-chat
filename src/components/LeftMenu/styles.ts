@@ -3,7 +3,7 @@ import {
   MdMenu,
   MdHome,
   MdAccountCircle,
-  MdGroup,
+  MdChat,
   MdPerson,
   MdSettings,
 } from 'react-icons/md';
@@ -76,7 +76,7 @@ export const AccountIcon = styled(MdAccountCircle)`
   ${iconsCSS}
 `;
 
-export const GroupIcon = styled(MdGroup)`
+export const ChatIcon = styled(MdChat)`
   ${iconsCSS}
 `;
 

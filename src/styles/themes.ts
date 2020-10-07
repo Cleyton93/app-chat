@@ -16,6 +16,11 @@ export default {
 
     '--color-white': '#FFFFFF',
     '--color-black': '#000000',
+    '--color-grey': '#CCCCCC',
+    '--color-red': 'red',
+
+    '--color-btn-success': '#17815C',
+    '--color-btn-success-hover': '#26D396',
 
     '--border-radius': '4px',
   },
@@ -37,6 +42,11 @@ export default {
 
     '--color-white': '#FFFFFF',
     '--color-black': '#000000',
+    '--color-grey': '#CCCCCC',
+    '--color-red': 'red',
+
+    '--color-btn-success': '#17815C',
+    '--color-btn-success-hover': '#26D396',
 
     '--border-radius': '4px',
   },

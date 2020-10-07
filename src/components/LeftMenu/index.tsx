@@ -7,8 +7,7 @@ import {
   HomeIcon,
   HamburguerMenuIcon,
   AccountIcon,
-  GroupIcon,
-  PrivateIcon,
+  ChatIcon,
   SettingsIcon,
 } from './styles';
 
@@ -37,24 +36,16 @@ const LeftMenu: React.FC<Props> = ({ toggleMenu, setToggleMenu }) => {
           </Link>
         </Icon>
 
-        <Icon title="Grupo">
-          <Link to="/grupo">
-            <GroupIcon />
+        <Icon title="Chat">
+          <Link to="/chat">
+            <ChatIcon />
           </Link>
 
-          <span>Grupo</span>
-        </Icon>
-
-        <Icon title="Privado">
-          <Link to="/">
-            <PrivateIcon />
-          </Link>
-
-          <span>Privado</span>
+          <span>Chat</span>
         </Icon>
 
         <Icon title="Perfil">
-          <Link to="/">
+          <Link to="/perfil">
             <AccountIcon />
           </Link>
 
